@@ -1,0 +1,24 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --exec electron .",
+    "postinstall": "electron-rebuild -w opencv4nodejs"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^23.1.4",
+    "electron-rebuild": "^3.2.9",
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "bmp-js": "^0.1.0",
+    "jimp": "^0.22.7",
+    "opencv4nodejs": "^5.6.0",
+    "pngjs": "^7.0.0"
+  }
+}

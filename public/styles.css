@@ -1,0 +1,25 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+#image-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+#image {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  width: 500px;
+  height: 500px;
+}
+
+#selection {
+  position: absolute;
+  border: 2px solid red;
+  pointer-events: none;
+}
